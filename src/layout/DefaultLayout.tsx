@@ -1,6 +1,5 @@
 import React from "react";
 import { AppHeader, AppContent, AppSidebar, AppFooter } from "../components";
-import { Outlet } from "react-router-dom";
 
 const DefaultLayout = () => {
   return (
@@ -12,7 +11,6 @@ const DefaultLayout = () => {
           <AppContent />
         </div>
         <AppFooter />
-        <Outlet />
       </div>
     </div>
   );
